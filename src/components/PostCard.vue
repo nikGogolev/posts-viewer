@@ -104,6 +104,7 @@ const editPost = () => {
     title: title.value,
     body: body.value,
   });
+  switchEditPost.value = false;
 };
 
 onMounted(() => {
